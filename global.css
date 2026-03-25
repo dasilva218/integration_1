@@ -1,0 +1,79 @@
+/*nettoyage des marges par défaut*/
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white; /*pour que les textes soient lisibles sur les couleurs sombres*/
+    text-align: center;
+}
+/* Header, section info et footer (les blocs horizontaux*/
+header {
+    background-color: #1565c0;
+    height: 60px; line-height: 60px;}
+
+.info-section {
+    background-color: #7e57c2;
+    padding: 80px 0;}
+
+footer {
+    background-color: #333;
+    height: 80px;
+    line-height: 80px;}
+
+.main-layout {
+    display: flex;
+    min-height: 400px;}
+
+nav {
+    background-color: #757575;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+main {
+    width: 75%;}
+
+.hero {
+    background-color: #f57c00;
+    padding: 40px;}
+
+.hero button {
+    background-color: white;
+    color: #f57c00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;}
+
+.services-title-bar {
+    background-color: #689F38;
+    padding: 15px;
+    margin bottom: 15px;
+    font-weight: bold}
+
+.services-grid-container {
+    display: flex;
+    gap: 20px;
+    background-color: transparent;}
+
+.services-card {
+    background-color: #76FF03;
+    flex: 1;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.services-list article {
+    background-color: #76FF03;
+    flex: 1;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
