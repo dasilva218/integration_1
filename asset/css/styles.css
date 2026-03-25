@@ -1,0 +1,80 @@
+header {
+    background: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    width: 180px;
+    background: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+}
+
+.hero {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.services-title {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: white;
+}
+
+.services div {
+    background: lightgreen;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.info {
+    background: purple;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    font-weight: bold;
+}
+
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
