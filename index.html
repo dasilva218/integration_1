@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Layout Exemple</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background:#2f74b5;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+}
+
+/* LAYOUT */
+
+.container{
+    display:flex;
+}
+
+/* NAV */
+
+nav{
+    background:#6d6d6d;
+    color:white;
+    width:220px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+}
+
+/* MAIN */
+
+main{
+    flex:1;
+}
+
+/* HERO */
+
+.hero{
+    background:#f07d22;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+.hero button{
+    background:#e5e5e5;
+    border:none;
+    padding:10px 20px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+/* SERVICES */
+
+.services-title{
+    background:#5ea314;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+
+.services{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.service-box{
+    flex:1;
+    background:#7df34f;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:120px;
+    font-weight:bold;
+}
+
+/* INFO SECTION */
+
+.info{
+    background:#825aa6;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+    font-size:22px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#444;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+Header
+</header>
+
+<div class="container">
+
+<nav>
+NAV
+</nav>
+
+<main>
+
+<section class="hero">
+<h1>HERO SECTION</h1>
+<p>Titre de bienvenue</p>
+<p>Titre de bienvenue</p>
+<button>Bouton</button>
+</section>
+
+<div class="services-title">
+SERVICES
+</div>
+
+<section class="services">
+
+<div class="service-box">
+SERVICES 1
+</div>
+
+<div class="service-box">
+SERVICES 1
+</div>
+
+<div class="service-box">
+SERVICES 1
+</div>
+
+</section>
+
+<section class="info">
+SECTION INFO
+</section>
+
+</main>
+
+</div>
+
+<footer>
+FOOTER
+</footer>
+
+</body>
+</html>

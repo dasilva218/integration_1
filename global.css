@@ -1,0 +1,120 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+background:#2f74b5;
+color:white;
+text-align:center;
+padding:20px;
+font-size:22px;
+font-weight:bold;
+}
+
+/* STRUCTURE PRINCIPALE */
+
+.container{
+display:flex;
+min-height:600px;
+}
+
+/* NAVIGATION */
+
+nav{
+width:220px;
+background:#707070;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:20px;
+font-weight:bold;
+}
+
+/* CONTENU */
+
+main{
+flex:1;
+}
+
+/* HERO SECTION */
+
+.hero{
+background:#f07a22;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h1{
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:10px;
+}
+
+.hero button{
+background:#e6e6e6;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+font-weight:bold;
+}
+
+/* SERVICES */
+
+.services-title{
+background:#5ca314;
+color:white;
+text-align:center;
+padding:10px;
+font-weight:bold;
+}
+
+.services{
+display:flex;
+gap:20px;
+padding:20px;
+}
+
+.service-box{
+flex:1;
+background:#78f050;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:120px;
+font-weight:bold;
+font-size:18px;
+}
+
+/* SECTION INFO */
+
+.info{
+background:#8256a8;
+color:white;
+text-align:center;
+padding:120px 20px;
+font-size:22px;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+background:#444;
+color:white;
+text-align:center;
+padding:20px;
+font-weight:bold;
+}
