@@ -1,0 +1,9 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(global.css);
+
+:root { 
+    font-size: 20px;
+    font-family: sans-serif;
+}

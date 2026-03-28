@@ -1,0 +1,100 @@
+.bloc {
+    display: flex;
+    height: 650px;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.conteneur {
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
+}
+.hero{
+    background-color: rgb(235, 164, 32);
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height:300px;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+    height: 640px;
+    width: 20%;
+    margin-top: 5px;
+    text-align: center;
+    align-content: center;
+    margin-right: 5px;
+
+}
+ .services {
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    
+
+ }
+ .service {
+    background-color: green;
+    margin-top: 10px;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+ }
+ .card1 {
+    background-color: greenyellow;
+    width: 30%;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+
+ }
+ .card2 {
+    background-color: greenyellow;
+    width: 30%;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+
+
+ }
+ .card3 {
+    background-color: greenyellow;
+    width: 30%;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+
+ }
+
+ .info {
+    background-color: rgb(219, 22, 219);
+    color: white;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    align-content: center;
+    margin-top: 10px;
+ }
