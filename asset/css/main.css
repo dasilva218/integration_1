@@ -23,6 +23,15 @@
     justify-content: center;
     gap: 20px;
 }
+ 
+button {
+   background-color: white;
+   color: orange;
+   height: 30px;
+   width: 100px;
+   border: 0;
+   border-radius: 5px;
+}
 
 nav {
     background-color: gray;
