@@ -1,0 +1,172 @@
+.main {
+        display: flex;
+     flex-direction: column;
+     
+     width: 100%;
+     height: 800px;
+
+
+     .main__container {
+          display: flex;
+          margin-block: 10px;
+
+     }
+
+     .main__container-nav{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 10px;
+          width: 25%;
+          height: 500px;
+          background-color: rgb(99, 103, 107);
+          color: rgb(237, 241, 244);
+     }
+
+     .main__hero{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 75%;
+          height: 500px;
+          
+     }
+     .hero__container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          
+          align-items: center;
+          margin-bottom: 10px;
+          width: 100%;
+          height: 280px;
+          
+          background-color: rgb(242, 124, 39);
+          color: rgb(240, 244, 247);
+     }
+
+     .hero__title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 15px;
+     }
+     .hero__description {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 15px;
+     }
+     .hero__subtitle{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 15px;
+     }
+     .hero__button {
+          display: flex;
+          justify-content: center;
+          background-color: rgb(240, 242, 243);
+          padding: 15px 25px;
+          border-radius: 10px 10px;
+     }
+     .button {
+          display: flex;
+          border: none;
+          color: rgb(219, 97, 26);
+     }
+
+
+     .main__services {
+          display: flex;
+          justify-content: center;
+
+          width: 100%;
+          height: 220px;
+
+
+          .service {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               width: 100%;
+               height: 220px;
+               
+          }
+
+          .service__title{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: 100%;
+               height: 50px;
+               margin-bottom: 10px;
+               background-color: rgba(73, 152, 17, 0.982);
+
+               color: rgb(245, 247, 249);
+               
+               
+
+               .h2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(73, 152, 17, 0.982);
+                    color: rgb(237, 240, 243);
+                    
+               }
+          }
+
+          .main__feature{
+               display: flex;
+               justify-content: space-between;
+               align-items: center ;
+               width: 100%;
+               height: 170px;
+               color: rgb(242, 244, 245);
+
+
+               
+               .feature-add{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 25%;
+                    height: 100%;
+                    background-color: rgba(134, 230, 65, 0.982);
+               }
+               .feature-sort{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 25%;
+                    height: 100%;
+                    background-color: rgba(134, 230, 65, 0.982);
+               }
+               .feature-icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 25%;
+                    height: 100%;
+                    background-color: rgba(134, 230, 65, 0.982);
+               }
+
+               }
+          }
+
+     }
+
+       .info {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 10px;
+           width: 100%;
+           height: 300px;
+           background-color: rgba(68, 11, 103, 0.749);
+            color: rgb(250, 250, 251);
+     }
