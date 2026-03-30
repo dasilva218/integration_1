@@ -1,0 +1,131 @@
+header{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 1339px;
+}
+.main-container{
+    display: flex;
+
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav{
+    margin-top: 10px;
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 300px;
+    color:white ;
+    font-weight: bold;
+}
+.Hero{
+    display: flex;
+    background-color: orangered;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+    height: 350px;
+    color: white;
+}
+.services{
+    margin-top: 10px;
+    width: 1050px;
+    height: 250px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sv{
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    width: 1050px;
+    margin-bottom: 10px;
+    background-color: green;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.info{
+    margin-top: 10px;
+    display: flex;
+    width: 1345px;
+    height: 175px;
+    background-color: purple;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+footer{
+    margin-top: 10px;
+    display: flex;
+    width: 1345px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.bloc-1{
+    width: 355px;
+    height: 271px;
+    display: flex;
+    background-color: green;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bloc-2{
+    display: flex;
+    width: 355px;
+    height: 271px;
+    margin: 10px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bloc-3{
+    display: flex;
+    width: 355px;
+    height: 271px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+}   
+
+
