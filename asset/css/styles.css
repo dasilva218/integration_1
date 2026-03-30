@@ -1,0 +1,84 @@
+header{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+/* ici c'est le Nav */
+nav{
+    width: 20%;
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+    min-height: 441px;
+}
+
+main{
+    width: 80%;
+}
+/* class hero */
+.hero{
+    background-color: orange;
+    color: aliceblue;
+    text-align: center;
+    padding: 35px;
+    align-content: center;
+    margin: 10px;
+}
+/* bouton */
+ button{
+    color: orange;
+    border-radius: 5px;
+    border: none;
+}
+/*services */
+.services{
+    text-align: center;
+    padding: 3px;
+}
+/* services h2 */
+.services h2{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+}
+/* class cards */
+.cards{
+    display: flex;
+    gap: 5px;
+    padding: 9px; 
+}
+/* cards div */
+.cards div{
+    flex: 1;
+    background-color: lime;
+    padding: 45px;
+    color: aliceblue;
+}
+/* ici class info */
+.info{
+    background-color: purple;
+    color: aliceblue;
+    text-align: center;
+    padding: 65px;
+    align-content: center;
+    margin: 10px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    margin: 10px;
+
+}
