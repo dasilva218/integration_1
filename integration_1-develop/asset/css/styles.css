@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(asset/global.css);
+@import url(asset/section/header.css);
+@import url(asset/section/main.css);
+@import url(asset/section/footer.css);
+
+:root{
+
+    --roboto: "Roboto", sans-serif;
+    font-family: var(--roboto);
+    
+    --primary-color: 0, 0, 0;
+    --secondary-color: 255, 255, 255;
+
+    --blue-color: 76, 140, 228;
+    --orange-color: 247, 127, 0;
+    --grey-color: 87, 89, 91;
+    --green-color: 72, 161, 17;
+    --green-color2: 168, 223, 142;
+    --purple-color: 196, 123, 228;
+
+}
