@@ -1,9 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Reset + variables globales */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+
+:root{
+  /* dimensions modifiables pour ajustements "pixel-perfect" */
+  --canvas-width: 720px;
+  --gap: 14px;
+
+  --header-h: 44px;
+  --nav-w: 190px;
+  --hero-h: 240px;
+  --services-title-h: 36px;
+  --service-h: 120px;
+  --info-h: 170px;
+  --footer-h: 56px;
+
+  /* couleurs (à modifier si besoin) */
+  --page-bg: #2b2b2b;
+  --white: #ffffff;
+  --header-color: #1976d2;
+  --nav-color: #808080;
+  --hero-color: #ef6b2c;
+  --services-bar: #318a15;
+  --service-color: #7FFF00;
+  --info-color: #7b4ea7;
+  --footer-color: #333333;
 }
 
-body {
-    font-family: Arial, sans-serif;
+body{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: var(--page-bg);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

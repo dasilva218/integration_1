@@ -1,136 +1,146 @@
-header {
-    background: #1976d2;
-    color: white;
-    text-align: center;
-    padding: 16px 0;
-    font-weight: bold;
-    font-size: 1.2rem;
+/* Container central (canevas blanc avec espaces blancs entre sections) */
+.canvas{
+  width: var(--canvas-width);
+  margin: 36px auto;
+  background: var(--white);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+  display: grid;
+  grid-template-rows: var(--header-h) auto var(--info-h) var(--footer-h);
+  gap: var(--gap);
+  padding: var(--gap); /* bordures blanches internes */
+  overflow: hidden;
 }
 
-.container {
-    display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    border: 4px solid white;
-    margin-top: 20px;
-    background: white;
+/* HEADER */
+.site-header{
+  background: var(--header-color);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-nav {
-    width: 220px;
-    background: #7f7f7f;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    height: 550px;
+/* ZONE PRINCIPALE: nav à gauche + contenu à droite.
+   Flex permet à la nav de s'étendre sur la même hauteur que le main. */
+.content{
+  display: flex;
+  gap: var(--gap);
+  align-items: stretch;
 }
 
-.content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+/* NAV */
+.nav{
+  width: var(--nav-w);
+  background: var(--nav-color);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 12px 8px;
+  align-self: stretch;
 }
 
-.hero {
-    background: #f57c00;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
+/* MAIN (colonne droite) */
+.main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
 }
 
-.hero h1 {
-    font-size: 2.2rem;
-    margin-bottom: 12px;
+/* HERO */
+.hero{
+  background: var(--hero-color);
+  color: var(--white);
+  min-height: var(--hero-h);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.hero h1{ font-size: 28px; margin-bottom: 8px; font-weight: 800; letter-spacing: 1px; }
+.hero h2{ font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.hero p{ font-size: 14px; margin-bottom: 12px; }
+
+/* Bouton */
+.btn{
+  background: var(--white);
+  color: var(--hero-color);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-.hero h3 {
-    font-size: 1.5rem;
-    margin-bottom: 8px;
+/* Barre SERVICES */
+.services-title{
+  background: var(--services-bar);
+  color: var(--white);
+  height: var(--services-title-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
 }
 
-.hero p {
-    font-size: 1.1rem;
-    margin-bottom: 18px;
+
+/* Ligne des 3 cartes — gap + padding latéral pour recréer gutters blancs */
+.services-row {
+  margin-top: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  padding: 10 var(--gap);
+  justify-content:inherit ;
+  
 }
 
-.hero button {
-    background: white;
-    color: #f57c00;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 24px;
-    font-weight: bold;
-    cursor: pointer;
+
+
+/* Cartes */
+.service{
+  background: var(--service-color);
+  height: var(--service-h);
+  display: flex;          /* change inline-flex → flex */
+  align-items: center;
+  text-align: center;
+  justify-content: center;  
+  font-weight: 700;          
+  color: #fff;
 }
 
-.services-title {
-    background: #43a047;
-    color: white;
-    text-align: center;
-    padding: 12px 0;
-    font-weight: bold;
-    font-size: 1.4rem;
+/* SECTION INFO */
+.info{
+  background: var(--info-color);
+  color: #fff;
+  height: var(--info-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.services {
-    display: flex;
-    justify-content: space-around;
-    background: white;
-    padding: 20px 10px;
+/* FOOTER */
+.site-footer{
+  background: var(--footer-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
 }
 
-.services > div {
-    width: 180px;
-    height: 120px;
-    background: #7cff62;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.info {
-    background: #7e57c2;
-    color: white;
-    text-align: center;
-    padding: 60px 0;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 14px 0;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-@media (max-width: 900px) {
-    .container {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    nav {
-        width: 100%;
-        height: auto;
-        padding: 16px 0;
-    }
-
-    .services {
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .services > div {
-        width: 80%;
-    }
+/* Responsive simple */
+@media (max-width: 760px){
+  :root { --canvas-width: calc(100% - 32px); --nav-w: 140px; }
+  .content { flex-direction: column; }
+  .nav { width: 100%; order: -1; }
+  .services-row { grid-template-columns: 1fr; padding: var(--gap); }
 }

@@ -1,53 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquette Web</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wireframe - INTEGRATION_1</title>
 
-    <link rel="stylesheet" href="asset/css/global.css">
-    <link rel="stylesheet" href="asset/css/styles.css">
+  <!-- global.css pour reset + variables, styles.css pour le layout -->
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="asset/css/styles.css" />
 </head>
 <body>
+  <div class="canvas">
+    <header class="site-header">Header</header>
 
-    <header>
-        Header
-    </header>
+    <div class="content">
+      <aside class="nav">NAV</aside>
 
-    <main class="container">
-
-        <nav>NAV</nav>
-
-        <section class="content">
-
-            <section class="hero">
-                <h1>HERO SECTION</h1>
-                <h3>Titre de bienvenue</h3>
-                <p>Titre de bienvenue</p>
-                <button>Bouton</button>
-            </section>
-
-            <section class="services-title" id="services">
-                SERVICES
-            </section>
-
-            <section class="services">
-                <div>SERVICES 1</div>
-                <div>SERVICES 1</div>
-                <div>SERVICES 1</div>
-            </section>
-
+      <main class="main">
+        <section class="hero">
+          <h1>HERO SECTION</h1>
+          <h2>Titre de bienvenue</h2>
+          <p>Titre de bienvenue</p>
+          <button class="btn">Bouton</button>
         </section>
 
-    </main>
+        <div class="services">
+          <div class="services-title">SERVICES</div>
+          <div class="services-row">
+            <div class="service">SERVICES 1</div>
+            <div class="service">SERVICES 1</div>
+            <div class="service">SERVICES 1</div>
+          </div>
+        </div>
+      </main>
+    </div>
 
-    <section class="info">
-        SECTION INFO
-    </section>
+    <section class="info">SECTION INFO</section>
 
-    <footer>
-        FOOTER
-    </footer>
-
+    <footer class="site-footer">FOOTER</footer>
+  </div>
 </body>
 </html>
