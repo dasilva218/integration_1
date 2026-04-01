@@ -1,0 +1,104 @@
+.atom {
+    height: 720px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 715px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--grey-color))
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.HERO-SECTION {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 320px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--orange-color));
+
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: rgb(var(--orange-color));
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    height: 75px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--green-color));
+}
+
+.services0 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.services1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--green-color2));
+}
+
+.services2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--green-color2));
+}
+
+.services3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--green-color2));
+}
+
+.section-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    color: rgb(var(--secondary-color));
+    background-color: rgb(var(--purple-color));
+}
