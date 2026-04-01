@@ -1,0 +1,11 @@
+header{
+
+grid-area:header;
+
+background:#2e6eb5;
+color:white;
+text-align:center;
+padding:20px;
+font-size:24px;
+
+}

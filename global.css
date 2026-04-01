@@ -1,1 +1,7 @@
-@import url('./asset/css/styles.css');
+@import url('./asset/css/layout.css');
+@import url('./asset/css/header.css');
+@import url('./asset/css/nav.css');
+@import url('./asset/css/hero.css');
+@import url('./asset/css/section.css');
+@import url('./asset/css/info.css');
+@import url('./asset/css/footer.css');

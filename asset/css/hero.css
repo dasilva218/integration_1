@@ -1,0 +1,21 @@
+.hero{
+
+background:#ef7c1f;
+color:white;
+text-align:center;
+padding:60px;
+
+}
+
+.hero button{
+
+margin-top:10px;
+padding:10px 20px;
+
+border:none;
+background:white;
+color:#ef7c1f;
+
+font-weight:bold;
+
+}

@@ -1,0 +1,15 @@
+.info{
+
+grid-area:info;
+
+background:#7e57c2;
+color:white;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+height:200px;
+font-size:24px;
+
+}
