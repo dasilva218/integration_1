@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+/* STRUCTURE */
+.main {
+    display: flex;
+}
+
+/* NAV */
+.nav {
+    width: 25%;
+    background: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    
+}
+
+/* CONTENU */
+.content {
+    width: 75%;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #e96806, #e96806);
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin-bottom: 1%;
+    gap: 10px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #e96806;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* SERVICES */
+.services {
+    background: #33af6d;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 2%;
+    color: white;
+    font-weight: bold;
+}
+
+.services-box {
+    display: flex;
+    gap: 100px;
+    margin-top: 5px;
+}
+
+.box {
+    flex: 1;
+    background: #0de266;
+    padding: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+/* INFO */
+.section-info {
+    background: purple;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    margin-top: 2%;
+    font-weight: bold;
+    width: 100%;
+    
+    
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgb(78, 77, 77);
+    text-align: center;
+    padding: 20px;
+    color: #f5f5f5;
+    margin-top: 1%; 
+    font-weight: bold;
+    align-items: center;
+
+
+}
