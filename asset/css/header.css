@@ -1,15 +1,11 @@
-header {
+header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
     width: 100%;
-    background-color: #2473ca;
-    margin-bottom: 20px ;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.section-header, .box-titre-header {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
