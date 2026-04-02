@@ -18,3 +18,7 @@ grid-template-areas:
 "footer footer";
 
 }
+
+*{
+    box-sizing: border-box;
+}
