@@ -39,7 +39,7 @@ main{
     > section:nth-of-type(2){
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 8px;
+        gap: 10px;
 
         > div:first-child{
             grid-column: 1 / -1;
