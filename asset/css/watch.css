@@ -1,0 +1,56 @@
+@media (max-width: 240px){
+ :root{
+    font-size: 8px;
+ }
+
+    body{
+        /*LE MAIN*/
+        main{
+            padding-top: 0px;
+
+            /*LE PREMIER ENFANT DU MAIN*/
+            .first-child-main{
+                flex-direction: column;
+                
+                /*LA NAV*/
+                nav{
+                    width: 100%;
+                    padding: 0;
+                    height: 5em;
+                }
+
+                /*LE HERO*/
+                .hero{
+                    width: 100%;
+
+                    /*LA SECTION "HERO"*/
+                    .hero-section{
+                        width: 100%;
+
+                        /*LE BOUTON*/
+                        button{
+                        font-size: 10px;
+                        }
+                    }
+
+                    /*LE BANDEAU "SERVICES"*/
+                    .services{
+                        padding: 1em 0;
+                        font-size: 10px;
+                    }
+
+                    /*LE CONTAINER DES SERVICES*/
+                    .services-list{
+                        flex-direction: column;
+
+                        /*LA CARTE DE CHAQUE SERVICE*/
+                        .service-card{
+                            font-size: 10px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

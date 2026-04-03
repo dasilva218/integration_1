@@ -1,4 +1,11 @@
 @import url(./asset/css/styles.css);
-@import url(./asset/css/hero.css);
-@import url(./asset/css/services.css);
-@import url(./asset/css/info.css);
+@import url(./asset/css/mobile.css);
+@import url(./asset/css/tablette.css);
+@import url(./asset/css/watch.css);
+
+:root{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-wrap: nowrap;
+    color: rgb(255, 255, 255);
+}

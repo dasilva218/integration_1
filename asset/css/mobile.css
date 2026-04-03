@@ -1,0 +1,39 @@
+@media (min-width: 240px) and (max-width: 768px){
+    body{
+        main{
+            padding-top: 0px;
+
+            /*LE PREMIER ENFANT DU MAIN*/
+            .first-child-main{
+                flex-direction: column;
+            
+                /*LA NAV*/
+                nav{
+                    width: 100%;
+                    padding: 0;
+                    height: 5em;
+                }
+
+                /*LE HERO*/
+                .hero{
+                    width: 100%;
+
+                    /*LA SECTION "HERO"*/
+                    .hero-section{
+                        width: 100%;
+                    }
+
+                    /*LE CONTAINER DES SERVICES*/
+                    .services-list{
+                        flex-direction: column;
+
+                        /*LA CARTE DE CHAQUE SERVICE*/
+                        .service-card{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

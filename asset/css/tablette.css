@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    body{
+        /*LE MAIN*/
+        main{
+            padding-top: 0px;
+            justify-items: center;
+
+            /*LE PREMIER ENFANT DU MAIN*/
+            .first-child-main{
+                width: 100%;
+                flex-direction: column;
+            
+                /*LA NAV*/
+                nav{
+                    width: 100%;
+                    padding: 0;
+                    height: 5em;
+                }
+
+                /* HERO */
+                .hero{
+                    width: 80%;
+                    margin: auto;
+
+                    /*LA SECTION "HERO"*/
+                    .hero-section{
+                        width: 100%;
+                    }
+
+                    /*LE BANDEAU DES SERVICES*/
+                    .services{
+                        width: 100%;
+                    }
+
+                    /*LE CONTAINER DES SERVICES*/
+                    .services-list{
+                        flex-direction: column;
+
+                        /*LA CARTE DE CHAQUE SERVICE*/
+                    .service-card{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            /*LE DEUXIEME ENFANT DU MAIN (SECTION INFO)*/
+            .section-info{
+                width: 80%;
+            }
+        }
+    }
+        
+}
