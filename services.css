@@ -1,0 +1,10 @@
+.services{
+    text-align: center;
+    padding: 3px;
+}
+/* services h2 */
+.services h2{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+}
