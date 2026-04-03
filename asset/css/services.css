@@ -1,0 +1,23 @@
+/* SERVICES */
+.services {
+    background: #33af6d;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 2%;
+    color: white;
+    font-weight: bold;
+}
+
+.services-box {
+    display: flex;
+    gap: 100px;
+    margin-top: 5px;
+}
+
+.box {
+    flex: 1;
+    background: #0de266;
+    padding: 70px;
+    color: white;
+    font-weight: bold;
+}
