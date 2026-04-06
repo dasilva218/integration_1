@@ -1,0 +1,61 @@
+/* header */
+
+@media (max-width:700px) {
+
+    .header {
+        
+        height: 75px;
+        background-color: rgb(53, 145, 232);
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .footer {
+        height:120px ;
+        
+    }
+}
+
+@media (max-width:320px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main__container {
+        display: flex;
+        
+        height: auto;
+
+    }
+
+    .hero__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap : 1px ;
+    }
+
+    .main__feature{
+               display: flex;
+               flex-direction: column;
+               justify-content: space-around;
+               height: 100%;
+               background-color: rgba(134, 230, 65, 0.982);
+               text-align: center;
+               align-items: center;
+               font-size: 10px;
+               margin-bottom: 10px;
+             
+               
+              
+    }
+
+
+
+   
+    
+}
