@@ -1,9 +1,16 @@
-/* HEADER */
-.header {
-    background: blue;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    margin-bottom: 1%;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #2473ca;
+    margin-bottom: 20px;
+}
+
+.section-header,
+.box-titre-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
