@@ -1,36 +1,30 @@
 ## Exercice : Création de la version Responsive du site
 
-### Objectif
+Breakpoints utilisés
 
-Votre mission est de proposer une **version responsive** du site web que vous avez réalisé précédemment.  
-Le site doit pouvoir **s’adapter correctement aux différents types d’écrans** : ordinateur, tablette et smartphone.
+Les media queries ont été définies en fonction des tailles d’écran suivantes :
 
-### Consignes
+Montre / très petits écrans : jusqu’à 224px
+Mobile : de 250px à 762px
+Tablette : de 762px à 1500px
+ Choix réalisés pour adapter le site
 
-1. Analysez la version actuelle du site.
-2. Identifiez les éléments qui doivent être adaptés pour les petits écrans :
-   - navigation
-   - disposition des sections
-   - images
-   - textes
-3. Mettez en place une **version responsive** en utilisant les techniques CSS appropriées :
-   - **Media Queries**
-   - **Flexbox et/ou Grid**
-   - unités flexibles (`%`, `rem`, `vh`, `vw`, etc.).
+Le site a été adapté en fonction des contraintes de chaque type d’écran afin d’améliorer la lisibilité et l’expérience utilisateur.
 
-### Livrables attendus
+Une attention particulière a été portée à l’organisation des éléments (navigation, sections, blocs de contenu)
+Les tailles des éléments ont été ajustées pour rester lisibles sur tous les supports
+Le layout a été simplifié sur les petits écrans
+ 
+ Principales modifications du layout
+Version montre (max-width: 224px)
+La barre de navigation a été placée horizontalement
+La section services a été réorganisée pour tenir sur un très petit écran
 
-Vous devez fournir dans votre dépôt Git :
+Version mobile (250px à 762px)
+La navigation reste horizontale
+Certains blocs ont été réduits pour améliorer la lisibilité
+L’espace entre les éléments a été ajusté
 
-- Le **code mis à jour** du site avec la version responsive.
-- Une **description dans ce README** expliquant :
-  - les choix réalisés pour adapter le site
-  - les breakpoints utilisés (mobile, tablette, desktop)
-  - les principales modifications apportées au layout.
-
-### Critères d’évaluation
-
-- Bonne adaptation du site aux différents écrans
-- Utilisation correcte de **Flexbox / Grid**
-- Organisation et lisibilité du code
-- Qualité de la documentation dans le README
+Version tablette (762px à 1500px)
+Le design reste proche de la version originale (desktop)
+Quelques blocs ont été agrandis pour mieux occuper l’espace
