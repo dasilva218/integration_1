@@ -1,0 +1,26 @@
+@import url(header.css);
+@import url(nav.css);
+@import url(main.css);
+@import url(footer\ .css);
+
+*{
+    box-sizing: border-box;
+    
+    padding: 0;
+    font-family: Arial,  sans-serif;
+
+}
+
+
+
+.container{
+    display: flex;
+}
+
+
+
+
+ 
+
+
+
