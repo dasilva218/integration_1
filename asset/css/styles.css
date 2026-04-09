@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #2473ca;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+header h1{
+    color: aliceblue;
+}
+
+
+
+
+
+/*debut de la section main*/
+.main{
+    display: flex;
+}
+/*fin de la section main*/
+
+
+/*debut de la section nav*/
+.section-nav{
+    width: 20%;
+    height: auto;
+    background-color: #707172;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+nav h1{
+    color: aliceblue;
+}
+/*fin de la section nav*/
+
+
+
+/*debut de la section hero et services */
+.hero-services{
+    padding-left:10px;
+    width: 80%;
+}
+/*fin de la section hero et services */
+
+
+.hero{
+    height: 400px;
+    background-color: #f07d25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom:10px
+}
+.hero div{
+   text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 4px;
+    border:none;
+    color: #f07d25;
+    font-size:20px;
+    font-weight: 600;
+}
+/*fin de la section hero*/
+
+
+.titre-service{
+    padding: 8px 2px;
+    width: 100%;
+    background-color: #62a41c;
+    text-align: center;
+    color: aliceblue;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+}
+.services div{
+    width:30%;
+    height:200px;
+    background-color:#a9ef06;
+    text-align:center;
+
+
+    
+}
+
+.services div{
+    color: aliceblue;
+    text-align: center;
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-info{
+    height:80px;
+    background-color:rgb(115, 57, 128) ;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+
+/*fin de la section main*/
+
+
+/*debut du footer*/
+    footer{
+        margin-top: 5px;
+        background-color:#3d3e3f;
+        text-align:center
+    }
+    footer h1 {
+        color:aliceblue;
+        padding: 12px 4px;
+        font-size: xx-large;
+    }
+    
+
+    /* fin du footer*/
