@@ -2,12 +2,10 @@
 @import url('/integration_1/asset/css/main.css');
 @import url('/integration_1/asset/css/footer.css');
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family:  sans-serif;
+*{
     color: white;
-    /* text-align: center; */
+    font-size: 35px;
+    font-weight: bold;
+    font-family: roboto;
+    margin: 0;
 }
-
-
