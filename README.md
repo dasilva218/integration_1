@@ -34,3 +34,15 @@ Vous devez fournir dans votre dépôt Git :
 - Utilisation correcte de **Flexbox / Grid**
 - Organisation et lisibilité du code
 - Qualité de la documentation dans le README
+
+
+
+
+
+# Création de la version responsive 
+
+- Pour adapter notre site,nous avons utilisé principalement la technique de *Media Queries*.
+
+- les breakpoints, consernant les tablettes dans notre site est à partir de "1020px",et commencent à "400px" pour les mobiles.
+
+- contenu des dispositions des blocs notament par exemple les classes,"contenair-nav","millieu", "box-services","info", auxquels nous avons modifié les tailles, et les hauteurs.
