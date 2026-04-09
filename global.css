@@ -1,4 +1,4 @@
 
-@import url(header.css);
-@import url(main.css);
-@import url(footer.css);
+@import url(./asset/css/header/header.css);
+@import url(./asset/css/main/main.css);
+@import url(./asset/css/footer/footer.css);
