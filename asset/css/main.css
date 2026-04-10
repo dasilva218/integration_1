@@ -1,0 +1,93 @@
+.nav{
+    height: 700px;
+    width: 250px;
+    color: beige;
+    background-color: rgb(45, 50, 54);
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.Hero{
+    background-color: darkorange;
+    margin-left: 280px;
+    margin-top: -220px;
+    padding-bottom: 150px;
+    color: beige;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    
+}
+
+.Hero button{
+    background-color:beige;
+    color: darkorange;
+    cursor: pointer;
+    border: 7px solid beige;
+    border-radius: 7px;
+    
+}
+
+.serveur{
+    font-family:Arial;
+    background-color: darkgreen;
+    color:beige;
+    margin-left: 280px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    height: 53px;
+}
+
+.Services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+    background-color:white;
+    margin-left: 280px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    
+}
+
+.service{
+    flex: 1;
+    width: 270px;
+    height: 270px;
+    background-color: greenyellow;
+    color: beige;
+    justify-content: space-between;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size:25px ;
+}
+
+.info{
+    height: 250px;
+    background-color: blueviolet;
+    color: beige;
+    position: relative;
+    top: -480px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+}
