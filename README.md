@@ -34,3 +34,19 @@ Vous devez fournir dans votre dépôt Git :
 - Utilisation correcte de **Flexbox / Grid**
 - Organisation et lisibilité du code
 - Qualité de la documentation dans le README
+
+_________________________
+
+### Ma procédure :
+   
+Vous retrouverez dans le fichier /*responsive.css*/ les différentes techniques CSS utilisées tel que :
+   - media queries
+   - flex box pour la mise en page
+   - % le pourcentage pour définir les hauteurs ou largeurs ...
+   - em pour la taille de police d'écriture...
+
+Le site s'adapte à tous les appareils : desktop, tablette, mobile et montre connectée.
+
+### Cordialement
+
+_________________________

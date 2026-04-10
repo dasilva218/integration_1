@@ -5,7 +5,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: rgb(var(--secondary-color));
     background-color: rgb(var(--blue-color))
 

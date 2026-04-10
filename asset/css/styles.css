@@ -5,6 +5,7 @@
 @import url(section/header.css);
 @import url(section/main.css);
 @import url(section/footer.css);
+@import url(responsive.css);
 
 :root{
 
