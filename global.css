@@ -1,13 +1,125 @@
-@import url('/integration_1/asset/css/header.css');
-@import url('/integration_1/asset/css/main.css');
-@import url('/integration_1/asset/css/footer.css');
+/* --- Styles de base (Mobile First ou Bureau) --- */
 
+/* Nettoyage des marges par défaut */
 * {
-    padding: 0;
-    margin: 0;
-    font-family:  sans-serif;
-    color: white;
-    /* text-align: center; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Correction : sans-serif au lieu de sans relief */
+  color: white;
+  text-align: center;
 }
 
+header {
+  background-color: #1565c0;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
 
+.info-section {
+  background-color: purple;
+  padding: 40px 20px; /* Réduit pour mobile */
+  margin-top: 5px;
+}
+
+footer {
+  background-color: black;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 5px;
+}
+
+/* Layout principal : Colonne par défaut (Mobile) */
+.main-layout {
+  display: flex;
+  flex-direction: column; 
+  min-height: 400px;
+}
+
+nav {
+  background-color: grey;
+  width: 100%; /* Toute la largeur sur mobile */
+  min-height: 50px;
+  display: flex;
+  margin-bottom: 5px; /* Marge en bas plutôt qu'à droite */
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+}
+
+button {
+  background-color: white;
+  color: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.services-title-bar {
+  background-color: #689f38;
+  padding: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Grille de services : Colonne par défaut */
+.services-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background-color: white;
+  padding: -5px;
+}
+
+.service-card {
+  background-color: #76ff03;
+  height: 120px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hero {
+  background-color: orange;
+  min-height: 200px;
+  padding: 40px;
+  margin-bottom: 5px;
+}
+
+/* --- Media Query pour Tablettes et Ordinateurs (Largeur > 768px) --- */
+
+@media (min-width: 768px) {
+  .main-layout {
+    flex-direction: row; /* Remet la navigation à côté du contenu */
+  }
+
+  nav {
+    width: 25%;
+    margin-right: 5px;
+    margin-bottom: 0;
+  }
+
+  main {
+    width: 75%;
+  }
+
+  .services-grid-container {
+    flex-direction: row; /* Remet les cartes de services côte à côte */
+  }
+
+  .service-card {
+    flex: 1;
+    height: 160px;
+  }
+
+  .info-section {
+    padding: 80px; /* Plus d'espace sur grand écran */
+  }
+}
