@@ -1,0 +1,10 @@
+footer{
+        margin-top: 5px;
+        background-color:#3d3e3f;
+        text-align:center
+    }
+    footer h1 {
+        color:aliceblue;
+        padding: 12px 4px;
+        font-size: xx-large;
+    }

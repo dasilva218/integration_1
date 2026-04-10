@@ -1,27 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    width: 100%;
-    background-color: #2473ca;
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-header h1{
-    color: aliceblue;
-}
-
-
-
-
-
-/*debut de la section main*/
 .main{
     display: flex;
 }
@@ -121,22 +97,3 @@ button{
     margin-top: 10px;
     color: aliceblue;
 }
-
-
-/*fin de la section main*/
-
-
-/*debut du footer*/
-    footer{
-        margin-top: 5px;
-        background-color:#3d3e3f;
-        text-align:center
-    }
-    footer h1 {
-        color:aliceblue;
-        padding: 12px 4px;
-        font-size: xx-large;
-    }
-    
-
-    /* fin du footer*/
