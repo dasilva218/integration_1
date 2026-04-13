@@ -1,38 +1,47 @@
 @media (min-width: 762px) and (max-width: 1500px) {
-  header {
+  * {
+   font-size: 35px;
+  }
+   header {
     height: 80px;
     font-size: 30px;
  }
     .bloc {
-    margin: 5px 5px;
     font-size: 30px;
-    height: 900px;
+    height: 1050px;
+    flex-direction: column;
   } 
 
  .hero {
     height: 500px;
-    
+    font-size: 45px;  
+ }
+ button {
+   height: 50px;
+   width: 150px;
+   font-size: 25px;
  }
  nav {
-    height: 890px;
+    height: 150px;
+    width: 100%;
  }
+  .services {
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+
+    }
 
  .info {
    height: 350px; 
    font-size: 30px;
+   width: 100%;
  }
 
- .card1 {
-    height: 300px;
-    width: 270px;
- }
- .card2 {
-    height: 300px;
-    width: 270px;
- }
- .card3 {
-    height: 300px;
-    width: 270px;
+ .card {
+    height: 600px;
+    width: 100%;
  }
  
  footer {

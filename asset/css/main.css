@@ -63,7 +63,7 @@ nav {
     display: flex;
     color: white;
  }
- .card1 {
+ .card {
     background-color: greenyellow;
     width: 30%;
     height: 250px;
@@ -74,29 +74,7 @@ nav {
     display: flex;
 
  }
- .card2 {
-    background-color: greenyellow;
-    width: 30%;
-    height: 250px;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
-    align-items: center;
-    display: flex;
-
-
- }
- .card3 {
-    background-color: greenyellow;
-    width: 30%;
-    height: 250px;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
-    align-items: center;
-    display: flex;
-
- }
+ 
 
  .info {
     background-color: rgb(219, 22, 219);

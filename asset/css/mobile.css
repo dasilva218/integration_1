@@ -15,6 +15,12 @@
     margin-top: 0;
     
 }
+button {
+   height: 40px;
+   width: 100px;
+   font-size: 20px;
+ }
+
 nav {
     display: block;
     width: 100%;
@@ -29,23 +35,12 @@ nav {
 }
 .info {
     height: 150px;
-
-
 }
-.card1 {
+.card {
     height: 160px;
     margin-top: 5px;
     width: 115px;
     
 }
-.card2 {
-    height: 160px;
-    margin-top: 5px;
-     width: 115px;
-} 
-.card3 {
-    height: 160px;
-    margin-top: 5px;
-     width: 115px;
-}
+
 }
