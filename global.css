@@ -1,6 +1,32 @@
-@import url(/asset/css/styles.css);
+@import url(./asset/css/styles.css);
+@import url(./asset/css/mobile.css);
+@import url(./asset/css/tablette.css);
+@import url(./asset/css/watch.css);
+
+
+
 
 body {
-    color: white;
-    
+    color: white; 
 }
+
+@media (min-width: 1440px) {
+  body {
+    padding: clamp(14px, 1.3vw, 24px);
+  }
+
+  .nav {
+    width: clamp(240px, 20vw, 420px);
+  }
+}
+
+@media (min-width: 1920px) {
+  .nav {
+    width: clamp(300px, 18vw, 520px);
+  }
+
+  .service-card {
+    min-height: clamp(260px, 16vw, 420px);
+  }
+}
+

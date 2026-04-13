@@ -4,10 +4,25 @@
   padding: 0;
 }
 
+body {
+  margin: 0;
+  padding: clamp(6px, 1.4vw, 16px);
+  background: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .layout {
-  
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header {
@@ -17,7 +32,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  height: 50px;
+  min-height: clamp(44px, 5vw, 54px);
   padding: 8px 0;
   border-bottom: 4px solid #fff;
 }
@@ -26,47 +41,50 @@
   display: flex;
   background: #fff;
   height: auto;
-
+  flex-wrap: nowrap;
 }
 
 .nav {
-  width: 110px;
+  width: clamp(140px, 22%, 260px);
+  min-width: 120px;
   background: #61656c;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 700;
   border-right: 6px solid #fff;
+  flex-shrink: 0;
 }
 
 .content {
   flex: 1;
+  min-width: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  height: 10%;
 }
 
 .hero {
   background: #ef7f1a;
   text-align: center;
-  padding: 28px 10px 34px;
+  padding: clamp(16px, 3.5vw, 28px) 10px clamp(18px, 4vw, 34px);
   border-bottom: 4px solid #fff;
 }
 
 .hero h1 {
-  font-size: 33px;
+  font-size: clamp(24px, 4vw, 33px);
   font-weight: 800;
   margin-bottom: 8px;
 }
 
-.hero 2 {
-  font-size: 28px;
+.hero h2 {
+  font-size: clamp(20px, 3.3vw, 28px);
   font-weight: 700;
   margin-bottom: 6px;
 }
 
-.hero 3 {
-  font-size: 17px;
+.hero h3 {
+  font-size: clamp(14px, 2.2vw, 17px);
   font-weight: 700;
   margin-bottom: 6px;
 }
@@ -89,7 +107,7 @@
   flex-direction: column;
   background: #79b82a;
   text-align: center;
-  height: 90px;
+  min-height: clamp(58px, 8vw, 90px);
   font-weight: 800;
   padding: 4px 0;
   margin-top: 2px;
@@ -101,11 +119,12 @@
   justify-content: space-between;
   gap: 12px;
   background: #fff;
-
+  flex-wrap: nowrap;
 }
 
 .service-card {
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 0;
   background: #73ff4d;
   display: flex;
   justify-content: center;
@@ -113,14 +132,14 @@
   text-align: center;
   color: #fff;
   margin-top: 3px;
-  height: 200px;
+  min-height: clamp(120px, 20vw, 200px);
 }
 
 .info {
   background: #7d56ae;
   text-align: center;
   font-weight: 800;
-  min-height: 80px;
+  min-height: clamp(56px, 8vw, 80px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,6 +151,69 @@
   background: #2f333a;
   text-align: center;
   font-weight: 800;
-  padding: 14px 0;
+  padding: clamp(10px, 2vw, 14px) 0;
   margin-top: 3px;
+  min-height: clamp(42px, 6vw, 50px);
+}
+
+
+
+@media (min-width: 1025px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .services {
+    flex-direction: row;
+  }
+
+  .header {
+    min-height: clamp(64px, 5vw, 96px);
+  }
+
+  .nav {
+    width: clamp(200px, 21vw, 360px);
+    min-width: 200px;
+  }
+
+  .hero {
+    padding: clamp(34px, 5vw, 74px) 18px clamp(40px, 6vw, 84px);
+  }
+
+  .hero h1 {
+    font-size: clamp(36px, 3.6vw, 62px);
+  }
+
+  .hero h2 {
+    font-size: clamp(26px, 2.6vw, 46px);
+  }
+
+  .hero h3 {
+    font-size: clamp(17px, 1.6vw, 28px);
+  }
+
+  .hero button {
+    padding: clamp(10px, 1.2vw, 18px) clamp(26px, 2.2vw, 40px);
+    font-size: clamp(15px, 1.2vw, 22px);
+  }
+
+  .services-title {
+    min-height: clamp(100px, 8vw, 160px);
+    font-size: clamp(24px, 2vw, 40px);
+  }
+
+  .service-card {
+    min-height: clamp(220px, 18vw, 360px);
+    font-size: clamp(16px, 1.2vw, 26px);
+  }
+
+  .info {
+    min-height: clamp(90px, 7vw, 150px);
+    font-size: clamp(17px, 1.3vw, 26px);
+  }
+
+  .footer {
+    min-height: clamp(64px, 5vw, 110px);
+    font-size: clamp(15px, 1.1vw, 24px);
+  }
 }

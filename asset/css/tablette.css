@@ -1,0 +1,95 @@
+/* TABLETTE */
+
+@media (min-width: 768px) and (max-width: 1440px) {
+
+    body {
+        padding: 14px;
+    }
+
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header,
+    .footer,
+    .nav,
+    .info {
+        width: 100%;
+    }
+
+    .header {
+        min-height: clamp(74px, 8vh, 108px);
+    }
+
+    .nav {
+        width: 100%;
+        min-width: 100%;
+        min-height: clamp(78px, 9vh, 118px);
+        border-right: none;
+        border-bottom: 4px solid #fff;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .hero {
+        padding: clamp(36px, 7vh, 76px) 18px clamp(42px, 8vh, 92px);
+    }
+
+    .hero h1 {
+        font-size: clamp(34px, 4.8vw, 50px);
+    }
+
+    .hero h2 {
+        font-size: clamp(24px, 3.8vw, 38px);
+    }
+
+    .hero h3 {
+        font-size: clamp(17px, 2.6vw, 26px);
+    }
+
+    .hero button {
+        padding: 12px 24px;
+        font-size: clamp(16px, 1.9vw, 22px);
+    }
+
+    .services-title {
+        min-height: clamp(108px, 10vh, 150px);
+        font-size: clamp(24px, 3.2vw, 38px);
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+
+        gap: 12px;
+        padding: 0;
+    }
+
+    .service-card {
+        width: 100%;
+        aspect-ratio: 6 / 3;
+        min-height: clamp(220px, 20vh, 340px);
+        margin-top: 0;
+        font-size: clamp(17px, 2vw, 24px);
+    }
+
+    .info {
+        min-height: clamp(98px, 9vh, 138px);
+        font-size: clamp(18px, 2.2vw, 26px);
+        margin-top: 6px;
+    }
+
+    .footer {
+        min-height: clamp(76px, 8vh, 118px);
+        font-size: clamp(16px, 1.9vw, 22px);
+    }
+}
