@@ -1,6 +1,6 @@
-@import url('/integration_1/asset/css/header.css');
-@import url('/integration_1/asset/css/main.css');
-@import url('/integration_1/asset/css/footer.css');
+@import url('./asset/css/header.css');
+@import url('./asset/css/main.css');
+@import url('./asset/css/footer.css');
 
 *{
     color: white;
