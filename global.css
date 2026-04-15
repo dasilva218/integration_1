@@ -5,3 +5,56 @@
 @import url(asset/css/services.css);
 @import url(asset/css/info.css);
 @import url(asset/css/footer.css);
+
+@media (max-width: 1032px) {
+    nav {
+        width: 100%;
+        min-height: auto;
+    }
+
+    nav + div {
+        width: 100%;
+    }
+
+    section:last-child > div {
+       
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    article {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    main > div:first-child {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    main > div:first-child {
+        gap: 15px;
+    }
+
+    main > div section:first-child {
+        padding: 60px 10px;
+    }
+
+    button {
+        padding: 8px 20px;
+    }
+
+    section:last-child > div {
+        gap: 15px;
+    }
+
+    article {
+        width: 100%;
+    }
+}

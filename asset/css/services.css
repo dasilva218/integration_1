@@ -9,7 +9,7 @@ section:last-child > div {
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0;
-    gap: 15px;
+    gap: 5px;
 }
 
 article {
