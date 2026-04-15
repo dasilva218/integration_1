@@ -1,146 +1,27 @@
-/* Container central (canevas blanc avec espaces blancs entre sections) */
-.canvas{
-  width: var(--canvas-width);
-  margin: 36px auto;
-  background: var(--white);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
-  display: grid;
-  grid-template-rows: var(--header-h) auto var(--info-h) var(--footer-h);
-  gap: var(--gap);
-  padding: var(--gap); /* bordures blanches internes */
-  overflow: hidden;
-}
+/* ── styles.css — importe tous les modules CSS ── */
+@import "header.css";
+@import "main.css";
+@import "footer.css";
 
-/* HEADER */
-.site-header{
-  background: var(--header-color);
-  color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 18px;
-}
 
-/* ZONE PRINCIPALE: nav à gauche + contenu à droite.
-   Flex permet à la nav de s'étendre sur la même hauteur que le main. */
-.content{
+/* ── Contenu principal (NAV + MAIN) ── */
+.content {
   display: flex;
   gap: var(--gap);
-  align-items: stretch;
-}
-
-/* NAV */
-.nav{
-  width: var(--nav-w);
-  background: var(--nav-color);
-  color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  padding: 12px 8px;
-  align-self: stretch;
-}
-
-/* MAIN (colonne droite) */
-.main{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
-}
-
-/* HERO */
-.hero{
-  background: var(--hero-color);
-  color: var(--white);
-  min-height: var(--hero-h);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.hero h1{ font-size: 28px; margin-bottom: 8px; font-weight: 800; letter-spacing: 1px; }
-.hero h2{ font-size: 18px; font-weight: 700; margin-bottom: 6px; }
-.hero p{ font-size: 14px; margin-bottom: 12px; }
-
-/* Bouton */
-.btn{
-  background: var(--white);
-  color: var(--hero-color);
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-/* Barre SERVICES */
-.services-title{
-  background: var(--services-bar);
-  color: var(--white);
-  height: var(--services-title-h);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-}
-
-
-/* Ligne des 3 cartes — gap + padding latéral pour recréer gutters blancs */
-.services-row {
-  margin-top: var(--gap);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--gap);
-  padding: 10 var(--gap);
-  justify-content:inherit ;
   
 }
 
-
-
-/* Cartes */
-.service{
-  background: var(--service-color);
-  height: var(--service-h);
-  display: flex;          /* change inline-flex → flex */
-  align-items: center;
-  text-align: center;
-  justify-content: center;  
-  font-weight: 700;          
-  color: #fff;
-}
-
-/* SECTION INFO */
-.info{
-  background: var(--info-color);
-  color: #fff;
-  height: var(--info-h);
+/* ── NAV ── */
+.nav {
+  background: var(--nav-color);
+  width: var(--nav-w);
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 18px;
-}
-
-/* FOOTER */
-.site-footer{
-  background: var(--footer-color);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-}
-
-/* Responsive simple */
-@media (max-width: 760px){
-  :root { --canvas-width: calc(100% - 32px); --nav-w: 140px; }
-  .content { flex-direction: column; }
-  .nav { width: 100%; order: -1; }
-  .services-row { grid-template-columns: 1fr; padding: var(--gap); }
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--white);
 }

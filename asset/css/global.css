@@ -1,0 +1,58 @@
+/* ── Reset + Variables globales ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+:root {
+  /* Dimensions */
+  --canvas-width:    720px;
+  --gap:             6px;
+
+  --header-h:        44px;
+  --nav-w:           190px;
+  --hero-h:          240px;
+  --services-bar-h:  36px;
+  --service-h:       120px;
+  --info-h:          170px;
+  --footer-h:        56px;
+
+  /* Couleurs */
+  --page-bg:         #ffffff;
+  --white:           #ffffff;
+  --header-color:    #1976d2;
+  --nav-color:       #808080;
+  --hero-color:      #ef6b2c;
+  --services-bar:    #318a15;
+  --service-color:   #7FFF00;
+  --info-color:      #7b4ea7;
+  --footer-color:    #333333;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f0f0f0;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Canvas principal ── */
+.canvas {
+  width: var(--canvas-width);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  background: #ffffff;
+  padding: var(--gap);
+}
