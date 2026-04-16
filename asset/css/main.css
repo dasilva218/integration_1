@@ -9,34 +9,34 @@ main{
 }
 
 .contenair-nav{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 25%;
-  height: 600px;
-  background-color: #707172;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 600px;
+    background-color: #707172;
 
 }
 
 .millieu{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    gap: 10px;
 
 }
 
 .hero{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;   
- width: 100%;
- height: 300px;
- background-color: #f07d25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    width: 100%;
+    height: 300px;
+    background-color: #f07d25;
 }
 
 .services{
@@ -97,7 +97,24 @@ main{
 @media screen and (max-width:400px) {
     .box-services{
         flex-direction: column;
-        gap: 15px;
+        gap: 8px;
     }
-    
+}
+
+
+/*sur montre connectée moins de 150px*/
+@media screen and (max-width: 150px) {
+    .mars{
+        font-size: 8px;
+        gap: 10px;
+    }
+    .header{
+        font-size: 10px;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .foot{
+        font-size: 10px;
+    }
 }
