@@ -34,3 +34,22 @@ Vous devez fournir dans votre dépôt Git :
 - Utilisation correcte de **Flexbox / Grid**
 - Organisation et lisibilité du code
 - Qualité de la documentation dans le README
+
+## Version Responsive du site
+
+Une version responsive a été mise en place à l’aide de CSS Grid, Flexbox et de Media Queries.
+
+### Choix réalisés
+- Utilisation de CSS Grid pour la structure principale
+- Adaptation de la navigation selon la taille de l’écran
+- Réorganisation des sections pour améliorer la lisibilité sur mobile
+
+### Breakpoints utilisés
+- Mobile : max-width 600px
+- Tablette : max-width 900px
+- Desktop : au-delà de 900px
+
+### Modifications principales
+- Navigation verticale sur desktop et tablette, horizontale sur mobile
+- Services en 3 colonnes (desktop), 2 colonnes (tablette), 1 colonne (mobile)
+- Sections empilées verticalement sur mobile

@@ -3,9 +3,8 @@ main{
     grid-template-columns: 150px 1fr;
     grid-template-rows: auto auto;
     min-height: 80vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    gap: 10px;
+    padding: 1rem 0;
+    gap: 1rem;
     
     >nav{
     grid-row: 1 / -1;
@@ -17,13 +16,12 @@ main{
     
     
 }
-
+    /*Hero*/
     > section {
-        padding: 10px;
         grid-column: 2;
     }
     
-        /*Hero*/
+        
     > section:first-of-type{
         background-color: orange;
         color: white;
@@ -33,20 +31,21 @@ main{
 
         > div{
             text-align: center;
+            width: 80%;
         }
     }
         /*services*/
     > section:nth-of-type(2){
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 1rem;
+        
 
         > div:first-child{
             grid-column: 1 / -1;
             background-color: green;
             color: white;
             text-align: center;
-            padding: 1px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -58,10 +57,10 @@ main{
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 20px;
+            padding: 2rem;
         }
         
-       
+       /*infos*/
     } 
     >section:nth-of-type(3){
         grid-column: 1 / -1;
@@ -71,7 +70,7 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px;
+        padding: 3rem;
         
        
 
