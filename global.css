@@ -13,7 +13,6 @@ body {
     gap: 10px;
 }
 
-/* Éléments Communs */
 header, nav, section, footer, .services-header, .service-card {
     display: flex;
     align-items: center;
@@ -29,11 +28,11 @@ header, nav, section, footer, .services-header, .service-card {
     background-color: #4A56E2;
 }
 
-/* Conteneur Milieu (Nav + Hero/Services) */
+
 .main-container {
     display: flex;
     gap: 10px;
-    flex: 1; /* Prend l'espace disponible */
+    flex: 1; 
 }
 
 /* Navigation Latérale */
