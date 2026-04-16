@@ -1,13 +1,104 @@
-@import url('/integration_1/asset/css/header.css');
-@import url('/integration_1/asset/css/main.css');
-@import url('/integration_1/asset/css/footer.css');
-
 * {
-    padding: 0;
     margin: 0;
-    font-family:  sans-serif;
-    color: white;
-    /* text-align: center; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px;
+    gap: 10px;
+}
 
+/* Éléments Communs */
+header, nav, section, footer, .services-header, .service-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Header */
+.header {
+    height: 60px;
+    background-color: #4A56E2;
+}
+
+/* Conteneur Milieu (Nav + Hero/Services) */
+.main-container {
+    display: flex;
+    gap: 10px;
+    flex: 1; /* Prend l'espace disponible */
+}
+
+/* Navigation Latérale */
+.nav {
+    width: 250px;
+    background-color: #535C68;
+}
+
+/* Colonne de droite */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+/* Hero Section */
+.hero {
+    flex-direction: column;
+    height: 300px;
+    background-color: #E67E22;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: #E67E22;
+    cursor: pointer;
+}
+
+/* Section Services */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.services-header {
+    height: 40px;
+    background-color: #77AC40;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.service-card {
+    height: 150px;
+    background-color: #98E65E;
+    border: 1px solid #ddd;
+}
+
+/* Section Info */
+.info {
+    height: 200px;
+    background-color: #A29BFE;
+}
+
+/* Footer */
+.footer {
+    height: 70px;
+    background-color: #485460;
+}
