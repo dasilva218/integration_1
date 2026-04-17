@@ -1,12 +1,19 @@
-.footer{
-    height:70px ;
-    background-color: rgb(53, 53, 87);
-    color: beige;
-    position: relative;
-    top: -460px;
+.section-info{
+    height:280px;
+    width: 100%;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-family: Arial;
+    margin-top: 20px;
+}
+
+.section-pied-page{
+    background-color: rgb(25, 4, 48);
+    height: 100px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    margin-top: 10px
 }

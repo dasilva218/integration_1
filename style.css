@@ -1,136 +1,105 @@
-header{
-    height: 60px;
-    background-color: blue;
-    color: beige;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+* {
+    padding: 0;
     margin: 0;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 23px;
-
+    font-family:  Arial;
+    color: white;
+    /* text-align: center; */
 }
 
-.main{
-    display: flexbox;
-    text-align: right;
-    position: relative;
-    top: -500px;
-
-}
-
-.nav{
-    height: 700px;
-    width: 250px;
-    color: beige;
-    background-color: rgb(45, 50, 54);
-    margin-top: 20px;
-    text-align: center;
+.Header {
+    background-color: #213ac9;
+    height: 100px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    font-family: Arial;
-    font-weight: bold;
-    display: flex;
-    margin-bottom: 20px;
 }
 
-.Hero{
-    background-color: darkorange;
-    margin-left: 280px;
-    margin-top: -220px;
-    padding-bottom: 90px;
-    color: beige;  
-    text-align: center;
+.nav {
+    background-color: #3a373f;
+    height: 750px;
+    width: 300px;
+    display: flex;
     align-items: center;
-    font-family: Arial;
     justify-content: center;
+    margin-top: 10px;
+}
+
+.section-hero {
+    height: 400px;
+    width: 80%;
+    background-color: orangered;
+    margin-left: auto;
+    text-align: center;
+    margin-top:-751px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content:center;
+    align-item:center;
+    font-size: 25px;
+    gap: 25px;
+}
+.Button{
+    background-color: white;
+    color:orangered;
+    font-size:23px;
+    border-radius: 13px;
+    border: none;
+    font-weight: bold;
+    width: fit-content;
+    padding: 8px 32px;
+    display: block;
+    margin: 0 auto;
 }
 
 
-
-.Hero button{
-    background-color:beige;
-    color: darkorange;
-    cursor: pointer;
-    border: 7px solid beige;
-    border-radius: 7px;
-    font-size: 20px;
-    font-weight: bold;    
-
-}
-
-.serveur{
-    font-family:Arial;
+.titre-principal{
+    height: 50px;
+    width: 80%;
     background-color: darkgreen;
-    color:beige;
-    margin-left: 280px;
-    padding-bottom: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    margin-left: auto;
     margin-top: 10px;
-    height: 53px;
+    text-align: center;
 }
 
-.Services{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 70px;
-    background-color:white;
-    margin-left: 280px;
-    padding-bottom: 0px;
+.section-service{
+    height:269px;
+    width: 80%;
+    margin-left: auto;
     margin-top: 10px;
-    
-}
-
-.service{
-    flex: 1;
-    width: 270px;
-    height: 270px;
-    background-color: greenyellow;
-    color: beige;
+    background-color: white;
+    display: flex;
     justify-content: space-between;
-    justify-content: center;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    font-size:25px ;
+    gap: 35px;
 }
 
-.info{
-    height: 250px;
-    background-color: blueviolet;
-    color: beige;
-    position: relative;
-    top: -480px;
-    align-items: center;
-    justify-content: center;
+.section-service h1{
+    height: 281px;
+    width: 28%;
+    background-color: lawngreen;
     display: flex;
+    justify-content: center;
     text-align: center;
-    font-family: Arial;
+    align-items: center;
 }
 
-.footer{
-    height:70px ;
-    background-color: rgb(53, 53, 87);
-    color: beige;
-    position: relative;
-    top: -460px;
+.section-info{
+    height:280px;
+    width: 100%;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-family: Arial;
+    margin-top: 20px;
+}
+
+.section-pied-page{
+    background-color: rgb(25, 4, 48);
+    height: 100px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    margin-top: 10px
 }
 
 

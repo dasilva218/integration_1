@@ -1,0 +1,13 @@
+@import url('/integration_1/asset/css/header.css');
+@import url('/integration_1/asset/css/main.css');
+@import url('/integration_1/asset/css/footer.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    color: white;
+    /* text-align: center; */
+}
+
+

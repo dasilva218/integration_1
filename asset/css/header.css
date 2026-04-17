@@ -1,12 +1,7 @@
-header{
-    height: 60px;
-    background-color: blue;
-    color: beige;
-    text-align: center;
+.Header {
+    background-color: #213ac9;
+    height: 100px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    margin: 0;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 23px;
+}
