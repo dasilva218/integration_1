@@ -1,4 +1,17 @@
-footer{
+.section-info{
+    height:80px;
+    background-color:rgb(115, 57, 128) ;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+
+.footer{
         margin-top: 5px;
         background-color:#3d3e3f;
         text-align:center

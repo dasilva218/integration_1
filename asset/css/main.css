@@ -1,36 +1,37 @@
 .main{
+   
+    width: 100%;
+    height: 600px;
     display: flex;
-}
-/*fin de la section main*/
-
-
-/*debut de la section nav*/
-.section-nav{
-    width: 20%;
-    height: auto;
-    background-color: #707172;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: x-large;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-nav{
+    width: 25%;
+    min-height: 80px;
+    flex-direction: column;
+    background-color: #707172;
+    height: inherit;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 nav h1{
-    color: aliceblue;
+    color:aliceblue;
+    text-align:center;
 }
-/*fin de la section nav*/
 
 
-
-/*debut de la section hero et services */
 .hero-services{
     padding-left:10px;
-    width: 80%;
+    width:80%;
 }
-/*fin de la section hero et services */
 
 
 .hero{
-    height: 400px;
+    height: 300px;
     background-color: #f07d25;
     display: flex;
     justify-content: center;
@@ -49,8 +50,11 @@ button{
     font-size:20px;
     font-weight: 600;
 }
-/*fin de la section hero*/
 
+.conterner{
+    max-width:1190px;
+    margin-inline: auto;
+}
 
 .titre-service{
     padding: 8px 2px;
@@ -59,6 +63,7 @@ button{
     text-align: center;
     color: aliceblue;
 }
+
 .services{
     display: flex;
     justify-content: space-between;
@@ -71,9 +76,8 @@ button{
     height:200px;
     background-color:#a9ef06;
     text-align:center;
-
-
-    
+    gap: 10px;
+   
 }
 
 .services div{
@@ -82,18 +86,38 @@ button{
     font-size:30px;
     display:flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
-.section-info{
-    height:80px;
-    background-color:rgb(115, 57, 128) ;
-    display:flex ;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: aliceblue;
+@media screen and (max-width:800px)   {
+    
+    .main {
+        flex-direction: column;  
+        height: auto;            
+        align-items: stretch;  
+    }
+
+    .section-nav {
+        width: 100%;             
+        height: auto;           
+        min-height: 80px;
+    }
+
+    .hero-services {
+        width: 100%;             
+    }
+
+    .services {
+        flex-direction: column;  
+        align-items: center;
+        gap: 10px;
+    }
+
+    .services div {
+        width: 80%;
+        height: 120px;
+        gap: 10px;
+    }
 }
+
+
